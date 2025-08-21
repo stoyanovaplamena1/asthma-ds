@@ -1,20 +1,30 @@
-# data (keep big files out of git)
+# --- Data (don't put raw or processed datasets in git) ---
 data/raw/
 data/processed/
 
-# notebooks
+# --- Jupyter ---
 .ipynb_checkpoints/
 
-# python
+# --- Python build/cache ---
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pkl
 
-# artifacts
-reports/
-
-# envs
+# --- Virtual environments ---
 .venv/
+env/
+venv/
+ENV/
 .env
 
-# OS/editor
+# --- Reports / artifacts ---
+reports/
+*.log
+
+# --- OS / Editor specific ---
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
