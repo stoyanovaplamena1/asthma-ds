@@ -1,0 +1,20 @@
+# data (keep big files out of git)
+data/raw/
+data/processed/
+
+# notebooks
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+
+# artifacts
+reports/
+
+# envs
+.venv/
+.env
+
+# OS/editor
+.DS_Store
